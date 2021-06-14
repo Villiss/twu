@@ -20,6 +20,7 @@ export function Item({ id }) {
         <Link to="/" />
       </motion.div>
       <div className="card-content-container open">
+      
         <motion.div className="card-content" layoutId={`card-container-${id}`}>
           <motion.div
             className="card-image-container"
@@ -31,14 +32,16 @@ export function Item({ id }) {
             className="title-container"
             layoutId={`title-container-${id}`}
           >
+          
             <span className="category">{category}</span>
             <h2>{title}</h2>
+            
           </motion.div>
           <motion.div className="content-container" animate>
             <p>
               {description}
             </p>
-            <Button target='_blank' variant="contained" color="primary" href={ciel}>
+            <Button className='viac' target='_blank' variant="contained" href={ciel}>
               Viac
             </Button>
           </motion.div>

@@ -114,9 +114,9 @@ li {
   top: 0;
   left: 0;
   right: 0;
-  position: fixed;
+  position: absolute;
   z-index: 1;
-  overflow: hidden;
+  overflow: visible;
   padding: 40px 0;
 }
 
@@ -135,7 +135,13 @@ li {
   height: auto;
   max-width: 700px;
   overflow: hidden;
+  scrollbar-width: none;
   /* pointer-events: none; */
+}
+
+.viac {
+  background-color: #9d9ca1;
+  color: #343434;
 }
 
 .card-open-link {
