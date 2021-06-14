@@ -1,25 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { AnimateSharedLayout, AnimatePresence } from "framer-motion";
+import { Header } from "./Header";
+import { Item } from "./Item";
+import { List } from "./List";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
-function App() {
+function Store({ match }) {
+  let { id } = match.params;
+  const imageHasLoaded = true;
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <List selectedId={id} />
+      <AnimatePresence>
+        {id && imageHasLoaded && <Item id={id} key="item" />}
+      </AnimatePresence>
+    </>
   );
 }
 
-export default App;
+export default function App() {
+  document.title = 'TWU'
+  return (
+    <div className="container">
+      <AnimateSharedLayout type="crossfade">
+        <Header />
+        <Router>
+          <Route path={["/:id", "/"]} component={Store} />
+        </Router>
+      </AnimateSharedLayout>
+    </div>
+  );
+}
