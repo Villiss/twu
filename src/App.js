@@ -4,6 +4,7 @@ import { Header } from "./Header";
 import { Item } from "./Item";
 import { List } from "./List";
 import { BrowserRouter as Router, Route } from "react-router-dom";
+import ScrollToTop from "./ScrollToTop";
 
 function Store({ match }) {
   let { id } = match.params;
@@ -12,6 +13,7 @@ function Store({ match }) {
   return (
     <>
       <List selectedId={id} />
+      <ScrollToTop />
       <AnimatePresence>
         {id && imageHasLoaded && <Item id={id} key="item" />}
       </AnimatePresence>
