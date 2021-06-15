@@ -1,5 +1,14 @@
 export const items = [
     {
+      id: "a",
+      category: "Sports nutrition",
+      title: "Mofito",
+      pointOfInterest: 260,
+      backgroundColor: "#5DBCD2",
+      ciel: 'https://www.mofito.eu/',
+      description: "Mnohí športovci si prešli obdobím, keď napriek poctivému tréningu neboli schopní podať taký výkon na aký majú natrénované, nevládzu alebo nemajú takú rýchlosť akú mali na tréningu. Je to aj váš prípad? Potom vás môže zaujímať nasledovné: Môže to mať viacero príčin ako nesprávny tréning, mentálna príprava a neposlednom rade je to nesprávna výživa. S posledným bodom Vám ľahko a rýchlo môžeme pomôcť! Od toho je tu tím Mofito a práve pre Vás, športovcov, ktorí chcú podať nielen pri zápase maximálny výkon, sme s odborníkmi zostavili ucelený balíček výživových doplnkov."
+    },
+    {
       id: "c",
       category: "Travel",
       title: "UNIGLOBE TWU Travel",
@@ -16,15 +25,6 @@ export const items = [
       backgroundColor: "#959684",
       ciel: 'http://www.plavbyporiekach.sk/',
       description: "Plavby loďou sú voľný čas, relaxácia a odpočinok na palube 5 * lode. Jedná sa o nevšedný zážitok ponúkajúce cestovanie, možnosť prehliadky miest, degustácia vína, gurmánske špeciality, návštevy pamiatok a nezabudnuteľné zážitky. Pre relaxáciu sa na palube nachádza wellness, sauna, kozmetický salón a vírivka. Počas plavby je strava all inclusive, ktorá zahŕňa miešané nápoje, nealkoholické nápoje a káva. Pre lode sú typické významné európske rieky a môžete si vybrať: plavba po Dunaji, plavba po Rýne a Meuse ale aj Rhôna, Saône Seina. Počas plavby tak môžete navštíviť európske metropoly, ako sú Viedeň, Budapešť, Amsterdam, Rotterdam. Vo Francúzsku navštívite oblasť Provence, na Dunaji zase Dunajskej katarakty. Riečna plavba je bezpečná dovolenka, ideálne svadobná cesta či medové týždne, originálny darček, romantika pre manželské páry, zamilované páry, ale aj firemné akcie. Spoločnosť TWU, s.r.o. je provízny predajca A-ROSA."
-    },
-    {
-      id: "a",
-      category: "Sports nutrition",
-      title: "Mofito",
-      pointOfInterest: 260,
-      backgroundColor: "#5DBCD2",
-      ciel: 'https://www.mofito.eu/',
-      description: "Mnohí športovci si prešli obdobím, keď napriek poctivému tréningu neboli schopní podať taký výkon na aký majú natrénované, nevládzu alebo nemajú takú rýchlosť akú mali na tréningu. Je to aj váš prípad? Potom vás môže zaujímať nasledovné: Môže to mať viacero príčin ako nesprávny tréning, mentálna príprava a neposlednom rade je to nesprávna výživa. S posledným bodom Vám ľahko a rýchlo môžeme pomôcť! Od toho je tu tím Mofito a práve pre Vás, športovcov, ktorí chcú podať nielen pri zápase maximálny výkon, sme s odborníkmi zostavili ucelený balíček výživových doplnkov."
     },
     {
       id: "g",
