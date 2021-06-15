@@ -8,6 +8,7 @@ function Card({ id, title, category, theme }) {
     <li className={`card ${theme}`}>
       <div className="card-content-container">
         <motion.div className="card-content" layoutId={`card-container-${id}`}>
+        
           <motion.div
             className="card-image-container"
             layoutId={`card-image-container-${id}`}
