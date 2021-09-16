@@ -225,6 +225,16 @@ p {
   line-height: 28px;
 }
 
+.footer {
+  color: #343434;
+  text-align: center;
+}
+
+.infotwu {
+  color: #fff;
+  text-decoration: none;
+}
+
 @media only screen and (max-width: 800px) {
   .card {
     flex: 0 0 50%;

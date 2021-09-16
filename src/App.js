@@ -5,6 +5,7 @@ import { Item } from "./Item";
 import { List } from "./List";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import ScrollToTop from "./ScrollToTop";
+import {Footer} from "./Footer"
 
 function Store({ match }) {
   let { id } = match.params;
@@ -30,6 +31,7 @@ export default function App() {
         <Router>
           <Route path={["/:id", "/"]} component={Store} />
         </Router>
+        <Footer/>
       </AnimateSharedLayout>
     </div>
   );
