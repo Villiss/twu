@@ -12,7 +12,7 @@ export const items = [
       id: "c",
       category: "Travel",
       title: "UNIGLOBE TWU Travel",
-      pointOfInterest: 80,
+      pointOfInterest: 250,
       backgroundColor: "#814A0E",
       ciel: 'https://www.uniglobetwutravel.sk/',
       description: "Venujte sa Vašej prosperite. Vy si hľadáte, dohadujete a realizujete Váš biznis. My Vám profesionálne zabezpečíme cestu k nemu.UNIGLOBE® TWU Travel je obchodná značka cestovnej kancelárie TWU, s.r.o., ktorá má v Slovenskej republike licenčné zastúpenie nadnárodnej spoločnosti UNIGLOBE® Travel (International) so sídlom vo Vancouveri v Kanade. Jedná sa o najväčšiu licenčnú cestovnú agentúru na svete, s viac ako 750  zastúpeniami vo viac ako 65 krajinách sveta.",
@@ -26,15 +26,15 @@ export const items = [
       ciel: 'http://www.plavbyporiekach.sk/',
       description: "Plavby loďou sú voľný čas, relaxácia a odpočinok na palube 5 * lode. Jedná sa o nevšedný zážitok ponúkajúce cestovanie, možnosť prehliadky miest, degustácia vína, gurmánske špeciality, návštevy pamiatok a nezabudnuteľné zážitky. Pre relaxáciu sa na palube nachádza wellness, sauna, kozmetický salón a vírivka. Počas plavby je strava all inclusive, ktorá zahŕňa miešané nápoje, nealkoholické nápoje a káva. Pre lode sú typické významné európske rieky a môžete si vybrať: plavba po Dunaji, plavba po Rýne a Meuse ale aj Rhôna, Saône Seina. Počas plavby tak môžete navštíviť európske metropoly, ako sú Viedeň, Budapešť, Amsterdam, Rotterdam. Vo Francúzsku navštívite oblasť Provence, na Dunaji zase Dunajskej katarakty. Riečna plavba je bezpečná dovolenka, ideálne svadobná cesta či medové týždne, originálny darček, romantika pre manželské páry, zamilované páry, ale aj firemné akcie. Spoločnosť TWU, s.r.o. je provízny predajca A-ROSA."
     },
-    {
-      id: "g",
-      category: "Marketing place",
-      title: "Ochranný Balíček",
-      pointOfInterest: 200,
-      backgroundColor: "#8F986D",
-      ciel: 'https://www.ochrannybalicek.sk/',
-      description: "Ukáž sa a chráň! Ochranný balíček, okrem primárnej ochrany zdravia nesie so sebou aj silný marketingovo – informačný priestor na jeho vrchnom obale. Tento obal je v plnej miere individualizovaný podľa Vášho zadania. V tejto podobe môžete balíček využiť na prezentáciu Vašej spoločnosti, prípadne Vašich partnerov a taktiež ako nositeľ organizačných pokynov a iných informácií."
-    }
+    // {
+    //   id: "g",
+    //   category: "Marketing place",
+    //   title: "Ochranný Balíček",
+    //   pointOfInterest: 200,
+    //   backgroundColor: "#8F986D",
+    //   ciel: 'https://www.ochrannybalicek.sk/',
+    //   description: "Ukáž sa a chráň! Ochranný balíček, okrem primárnej ochrany zdravia nesie so sebou aj silný marketingovo – informačný priestor na jeho vrchnom obale. Tento obal je v plnej miere individualizovaný podľa Vášho zadania. V tejto podobe môžete balíček využiť na prezentáciu Vašej spoločnosti, prípadne Vašich partnerov a taktiež ako nositeľ organizačných pokynov a iných informácií."
+    // }
   ];
   
   export const openSpring = { type: "spring", stiffness: 200, damping: 30 };
