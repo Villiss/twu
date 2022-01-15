@@ -23,7 +23,6 @@ function Store({ match }) {
 }
 
 export default function App() {
-  document.title = 'TWU'
   return (
     <div className="container">
       <AnimateSharedLayout type="crossfade">
