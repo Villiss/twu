@@ -6,7 +6,6 @@ import { List } from "./List";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import ScrollToTop from "./ScrollToTop";
 import {Footer} from "./Footer"
-import ReactGA from 'react-ga'
 
 function Store({ match }) {
   let { id } = match.params;
@@ -24,13 +23,6 @@ function Store({ match }) {
 }
 
 export default function App() {
-
-  useEffect(() => {
-    ReactGA.initialize('G-KYY3GNCGZR')
-
-    ReactGA.pageview('/')
-
-  }, [])
   
   return (
     <div className="container">
